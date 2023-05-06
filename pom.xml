@@ -6,7 +6,18 @@
 
     <groupId>com.lc</groupId>
     <artifactId>mrpc</artifactId>
+    <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>mrpc-client</module>
+        <module>mrpc-common</module>
+        <module>mrpc-container</module>
+        <module>mrpc-demo</module>
+        <module>mrpc-protocol</module>
+        <module>mrpc-register</module>
+        <module>mrpc-remoting</module>
+        <module>mrpc-server</module>
+    </modules>
 
 
 </project>
